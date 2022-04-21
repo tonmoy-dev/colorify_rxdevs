@@ -1,15 +1,21 @@
-// console.log('%c Hello!', 'color:green; background: yellow');
+
+const styles = `font-weight:bold; font-size:16px;`
 
 export class Log{
     static success(msg: string) {
-        console.log(`%c ${msg}`, 'color:green');
+        console.log(`%c ${msg}`, `color:#00B74A;${styles}`);
     }
 
-    static danger(msg: string) {
-        console.log(`%c ${msg}`, 'color:red');
+    static error(msg: string) {
+        console.log(`%c ${msg}`, `color:#F93154;${styles}`);
     }
 
     static info(msg: string) {
-        console.log(`%c ${msg}`, 'color:yellow');
+        console.log(`%c ${msg}`, `color:#39C0ED;${styles}`);
+    }
+
+    static warn(msg: string) {
+        console.log(`%c ${msg}`, `color:#FFA900;${styles}`);
     }
 }
+
