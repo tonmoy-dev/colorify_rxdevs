@@ -1,5 +1,5 @@
 {
-  "name": "colorify_rxdevs",
+  "name": "colorify-rxdevs",
   "version": "1.0.0",
   "description": "A library to colorify your console logs. Learn coding with fun!",
   "main": "lib/index.js",
