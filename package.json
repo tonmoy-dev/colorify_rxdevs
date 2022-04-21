@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rx-devs/colorify-rxdevs.git"
+    "url": "git+https://github.com/Rx-devs/colorify_rxdevs.git"
   },
   "keywords": [
     "console log colors",
@@ -19,9 +19,9 @@
   "author": "Tonmoy Roy <tonmoyroydev@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rx-devs/colorify-rxdevs/issues"
+    "url": "https://github.com/Rx-devs/colorify_rxdevs/issues"
   },
-  "homepage": "https://github.com/Rx-devs/colorify-rxdevs#readme",
+  "homepage": "https://github.com/Rx-devs/colorify_rxdevs#readme",
   "devDependencies": {
     "typescript": "^4.6.3"
   },
