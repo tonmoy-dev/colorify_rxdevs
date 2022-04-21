@@ -1,20 +1,29 @@
 {
   "name": "colorify_rxdevs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A library to colorify your console logs. Learn coding with fun!",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rx-devs/colorify-rxdevs.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Tonmoy Roy <tonmoyroydev@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Rx-devs/colorify-rxdevs/issues"
   },
-  "homepage": "https://github.com/Rx-devs/colorify-rxdevs#readme"
+  "homepage": "https://github.com/Rx-devs/colorify-rxdevs#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "files": ["lib/**/*"]
 }
