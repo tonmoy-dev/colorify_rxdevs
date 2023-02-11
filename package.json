@@ -1,6 +1,6 @@
 {
   "name": "colorify-rxdevs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library to colorify your console logs. Learn coding with fun!",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,7 +13,6 @@
     "url": "git+https://github.com/Rx-devs/colorify_rxdevs.git"
   },
   "keywords": [
-    "console log colors",
     "colorify logs"
   ],
   "author": "Tonmoy Roy <tonmoyroydev@gmail.com>",
